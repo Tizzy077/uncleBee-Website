@@ -1,0 +1,145 @@
+.about-section{
+    /* margin-top: 60px; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.left-about{
+    padding: 0 100px;
+    height: 800px;
+    padding-top: 40px;
+    position: relative;
+    background:linear-gradient(
+        to bottom,
+        #FF6B35 0%,
+        #F7931E30 0%
+    );
+
+}
+.left-about .top-img,
+.left-about .bottom-img{
+    width: 300px;
+    border: 2px solid #F97316;
+    border-radius: 20px;
+}
+.left-about .bottom-img{
+    position: absolute;
+    right: 80px;
+    bottom: 150px;
+}
+.left-about .top-img{
+    left: 80px;
+    top: 100px;
+}
+
+.award-btn{
+    background-color: #F97316;
+    position: absolute;
+    bottom: 40px;
+    display: flex;
+    gap: 5px;
+    left: 30%;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 6px 30px 5px rgba(0, 0, 0, 0.12);
+
+}
+
+.award-btn img{
+    width: 30px;
+    height: 30px;
+}
+.award-btn:hover{
+    background-color: #e48847;
+    transition: 0.3s;
+}
+.award-stats{
+    text-align: left;
+
+}
+.award-stats h4{
+    font-size: 14px;
+}
+.award-stats p{
+    font-size: 10px;
+}
+
+
+.right-about{
+    padding: 60px 80px;
+    max-height: 800px;
+    position: relative;
+    /* display: flex;
+    flex-direction: column;
+    gap: 40px; */
+}
+.right-about h3{
+    background-color: #FF6B3520;
+    padding: 8px 10px;
+    border: none;
+    border-radius: 15px;
+    display: inline;
+    color: #F97316;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 700;
+    /* margin-bottom: 40px; */
+}
+.right-about h2{
+    font-size: 25px;
+    width: 60%;
+    text-transform: uppercase;
+    margin-top: 50px;
+}
+.subtext{
+    margin-top: 50px;
+    width: 80%;
+    font-size: 16px;
+}
+
+.checklist-container{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.checklist{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    /* justify-content: center; */
+}
+.checklist img{
+    background-color: #F97316;
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+}
+.checklist p{
+    font-size: 16px;
+    font-weight: 500;
+
+}
+.orange-btn{
+    background-color: #F97316;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 15px 20px;
+    font-weight: 500;
+    cursor: pointer;
+    margin-top: 50px;
+    position: absolute;
+    bottom: 40px;
+    left: 40%;
+    box-shadow: 0 6px 30px 5px rgba(0, 0, 0, 0.12);
+}
+.orange-btn:hover{
+    background-color: #e48847;
+    transition: 0.3s;
+    }

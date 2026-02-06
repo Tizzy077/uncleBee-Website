@@ -1,0 +1,99 @@
+.services-section{
+    /* min-height: 1000px; */
+    background: linear-gradient(
+        to bottom,
+        #FF6B35 0%,
+        #edc3b491 0%
+    );
+    padding: 0 100px;
+    padding-top: 50px;
+
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction: column;
+}
+.badge{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.badge h3{
+    background-color: #F97316;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    display: inline-block;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 15px;
+    
+}
+.heading h1{
+    font-size: 42px;
+    text-align: center;
+    font-weight: 900;
+    margin-bottom: 30px;
+}
+.heading p{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 16px;
+}
+.services-container{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 40px 0;
+}
+.service{
+    background-color: white;
+    padding: 20px 30px;
+    border: none;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.service img{
+    width: 35px;
+    height: 35px;
+}
+.service h3{
+    font-size: 22px;
+    font-weight: 700;
+}
+.service p{
+    font-size: 15px;
+}
+.service ul{
+    list-style-position: inside;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.service ul li{
+    font-size: 14px;
+
+}
+.service ul li::marker{
+    color: #F97316;
+    font-size: 18px;
+}
+.service-btn{
+    background-color: #F97316;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 15px 20px;
+    font-weight: 500;
+    cursor: pointer;
+    margin-top: 50px;
+    width: fit-content;
+    align-self: center;
+    box-shadow: 0 6px 30px 5px rgba(0, 0, 0, 0.12);
+}
+.service-btn:hover{
+    background-color: #e48847;
+    transition: 0.3s;
+}

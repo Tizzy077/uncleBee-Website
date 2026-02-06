@@ -1,0 +1,137 @@
+.trust-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+.left-trust{
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    padding: 50px 100px;
+    gap:40px;
+}
+.line-orange{
+    width: 17%;
+    height: 7px;
+    background-color: #F97316;
+}
+.left-trust h2{
+    width: 35%;
+    font-size: 30px;
+}
+.left-trust span{
+    color: #F97316;
+}
+.left-trust p{
+    font-size: 16px;
+    width: 85%;
+}
+.review{
+    background-color: #F97316;
+    padding: 20px;
+    border: none;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    color: white;
+    width: 60%;
+}
+.review .stars{
+    display: flex;
+    gap: 10px;
+}
+.stars img{
+    width: 30px;
+    height: 30px;
+}
+.review .italic-rev{
+    font-style: italic;
+    width: 100%;
+}
+.review .author{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.author p{
+    font-style: italic;
+}
+.review-btn{
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 10px;
+    padding: 15px 20px;
+    font-weight: 500;
+    width: fit-content;
+    align-self: center;
+    margin-top: 50px;
+    cursor: pointer;
+    box-shadow: 0 6px 30px 5px rgba(0, 0, 0, 0.12);
+}
+
+.right-trust{
+    background:linear-gradient(
+        to bottom,
+        #FF6B35 0%,
+        #F7931E30 0%
+    );
+    padding: 50px 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    /* align-items: center; */
+}
+.right-review{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+}
+
+.white-review{
+    background-color: white;
+    padding: 20px;
+    border: none;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    color: black;
+    width: 60%;
+
+}
+.review-stats{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.top-rate{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.rate-info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+.rate-info img{
+    width: 50px;
+    height: 50px;
+    background-color: #F97316;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+}
+.rate h3{
+    font-size: 20px;
+}
+.rate p{
+    font-size: 14px;
+}
