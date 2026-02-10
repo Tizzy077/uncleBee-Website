@@ -4,7 +4,7 @@
     grid-template-columns: 1fr 1fr;
 }
 .left-about{
-    padding: 0 100px;
+    padding: 0 10px;
     height: 800px;
     padding-top: 40px;
     position: relative;
@@ -15,20 +15,29 @@
     );
 
 }
-.left-about .top-img,
-.left-about .bottom-img{
+.image-container{
+    margin: 0 auto;
+    width: 90%;
+    max-width: 600px;
+    height: 80%;
+    position: relative;
+    /* background-color: black; */
+}
+.image-container .top-img,
+.image-container .bottom-img{
     width: 300px;
     border: 2px solid #F97316;
     border-radius: 20px;
 }
-.left-about .bottom-img{
+.image-container .bottom-img{
     position: absolute;
-    right: 80px;
-    bottom: 150px;
+    right: 6%;
+    bottom: 0;
 }
-.left-about .top-img{
-    left: 80px;
-    top: 100px;
+.image-container .top-img{
+    position: absolute;
+    left: 6%;
+    top: 0;
 }
 
 .award-btn{
@@ -42,7 +51,7 @@
     padding: 10px 20px;
     border-radius: 10px;
     border: none;
-    cursor: pointer;
+    /* cursor: pointer; */
     box-shadow: 0 6px 30px 5px rgba(0, 0, 0, 0.12);
 
 }
