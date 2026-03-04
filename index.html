@@ -30,15 +30,18 @@
                         </div>
                     </div>
 
-                    <div class="menu">
-                        <ul class="menu-links">
+                    <button class="btn-toggle">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </button>
 
+                        <ul class="menu-links">
                            <li><a href="index.html" class="active">Home</a></li>
                             <li><a href=#>About</a></li>
                             <li><a href=#>Service</a></li>
                             <li><a href="#">Contact</a></li> 
                         </ul>
-                    </div>
 
                 </nav>
             </header>
@@ -424,13 +427,13 @@
         </div>
         <div class="right-footer">
             <div class="wrapper">
-                <form action="">
+                <form action="https://formspree.io/f/xwvngnvn" method="POST">
                     <h3>Request A Quote</h3>
                     <p>Fill out the form and we'll get back to you within 24 hours</p>
                     <div class="input-section">
-                        <input type="text" placeholder="Full Name">
-                        <input type="email" placeholder="Email" id="">
-                        <input type="tel" placeholder="Phone Number">
+                        <input type="text" name="Full Name" placeholder="Full Name" required>
+                        <input type="email" name="Email" placeholder="Email" id="" required>
+                        <input type="tel" name="Phone Number" placeholder="Phone Number" required>
                     </div>
                     <h4 class="type-text">Select service type</h4>
                     <textarea name="Request" id="" cols="5"></textarea>
@@ -444,4 +447,5 @@
 
     </section>
 </body>
+<script src="main.js"></script>
 </html>
